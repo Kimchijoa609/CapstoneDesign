@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--  현재 시각 알려주는 버튼  -->
+    <Button
+        android:id="@+id/whatTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#FFD400"
+        android:text="현재 시각"
+        android:textSize="40dp"
+        android:layout_weight="2"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!--    안내 시작 화면으로 가는 버튼    -->
+    <Button
+        android:id="@+id/navStartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="#FFD400"
+        android:text="안내 시작"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <!--이용 방법에 대해 알려주는 버튼-->
+    <Button
+        android:id="@+id/explainBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="40dp"
+        android:background="#FFD400"
+        android:text="이용 방법"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+</LinearLayout>
